@@ -1,0 +1,587 @@
+[
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.AppointmentController",
+    "Method": "GetAllAppointments",
+    "RelativePath": "api/Appointment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.AppointmentController",
+    "Method": "AddAppointment",
+    "RelativePath": "api/Appointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentDto",
+        "Type": "HospitalAppMgnt.DTOs.AppointmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.AppointmentController",
+    "Method": "GetAppointmentById",
+    "RelativePath": "api/Appointment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.AppointmentController",
+    "Method": "UpdateAppointment",
+    "RelativePath": "api/Appointment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "appointmentDto",
+        "Type": "HospitalAppMgnt.DTOs.AppointmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.AppointmentController",
+    "Method": "DeleteAppointment",
+    "RelativePath": "api/Appointment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorController",
+    "Method": "GetAllDoctorProfiles",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorController",
+    "Method": "AddDoctorProfile",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorProfileDto",
+        "Type": "HospitalAppMgnt.DTOs.DoctorProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorController",
+    "Method": "GetDoctorProfileById",
+    "RelativePath": "api/Doctor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorController",
+    "Method": "UpdateDoctorProfile",
+    "RelativePath": "api/Doctor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "doctorProfileDto",
+        "Type": "HospitalAppMgnt.DTOs.DoctorProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorController",
+    "Method": "DeleteDoctorProfile",
+    "RelativePath": "api/Doctor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorScheduleController",
+    "Method": "GetAllDoctorSchedules",
+    "RelativePath": "api/DoctorSchedule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorScheduleController",
+    "Method": "AddDoctorSchedule",
+    "RelativePath": "api/DoctorSchedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorScheduleDto",
+        "Type": "HospitalAppMgnt.DTOs.DoctorScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorScheduleController",
+    "Method": "GetDoctorScheduleById",
+    "RelativePath": "api/DoctorSchedule/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorScheduleController",
+    "Method": "UpdateDoctorSchedule",
+    "RelativePath": "api/DoctorSchedule/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "doctorScheduleDto",
+        "Type": "HospitalAppMgnt.DTOs.DoctorScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.DoctorScheduleController",
+    "Method": "DeleteDoctorSchedule",
+    "RelativePath": "api/DoctorSchedule/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.MedicalHistoryController",
+    "Method": "GetAllMedicalHistories",
+    "RelativePath": "api/MedicalHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.MedicalHistoryController",
+    "Method": "AddMedicalHistory",
+    "RelativePath": "api/MedicalHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalHistoryDto",
+        "Type": "HospitalAppMgnt.DTOs.MedicalHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.MedicalHistoryController",
+    "Method": "GetMedicalHistoryById",
+    "RelativePath": "api/MedicalHistory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.MedicalHistoryController",
+    "Method": "UpdateMedicalHistory",
+    "RelativePath": "api/MedicalHistory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicalHistoryDto",
+        "Type": "HospitalAppMgnt.DTOs.MedicalHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.MedicalHistoryController",
+    "Method": "DeleteMedicalHistory",
+    "RelativePath": "api/MedicalHistory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.NotificationController",
+    "Method": "GetAllNotifications",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.NotificationController",
+    "Method": "AddNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationDto",
+        "Type": "HospitalAppMgnt.DTOs.NotificationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.NotificationController",
+    "Method": "GetNotificationById",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.NotificationController",
+    "Method": "UpdateNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notificationDto",
+        "Type": "HospitalAppMgnt.DTOs.NotificationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.PatientProfileController",
+    "Method": "GetAllPatientProfiles",
+    "RelativePath": "api/PatientProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.PatientProfileController",
+    "Method": "AddPatientProfile",
+    "RelativePath": "api/PatientProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientProfileDto",
+        "Type": "HospitalAppMgnt.DTOs.PatientProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.PatientProfileController",
+    "Method": "GetPatientProfileById",
+    "RelativePath": "api/PatientProfile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.PatientProfileController",
+    "Method": "UpdatePatientProfile",
+    "RelativePath": "api/PatientProfile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patientProfileDto",
+        "Type": "HospitalAppMgnt.DTOs.PatientProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.PatientProfileController",
+    "Method": "DeletePatientProfile",
+    "RelativePath": "api/PatientProfile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "AddUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "HospitalAppMgnt.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDTO",
+        "Type": "HospitalAppMgnt.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "HospitalAppMgnt.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAppMgnt.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "HospitalAppMgnt.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

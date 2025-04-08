@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HoC8ggCPywvyYcdBTBND01oV5PyqJwAoDQvP4jCbZSw=",
+  "Source": "HospitalAppMgnt",
+  "BasePath": "_content/HospitalAppMgnt",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
